@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+
+
+        <string name="zero">SIGN UP</string>
+        <string name="zero1">LOG IN</string>
+        <string name="one">NAME</string>
+
+        <string name="two">EMAIL ID</string>
+        <string name="three">PASSWORD</string>
+        <string name="four">CONFIRM PASSWORD</string>
+        <string name="five">ADDRESS</string>
+        <string name="six">WHAT ARE YOU GOOD AT ?</string>
+        <string name="seven">SUBMIT</string>
+        <string name="hint">Type here</string>
+        <string name="check">I accept the terms and conditions.</string>
+        <string name="butt">CHOOSE</string>
+        <string name="spin">SELECT</string>
+        <string-array name="options">
+            <item>ear rings</item>
+            <item>bangles and bracelets</item>
+            <item>necklaces</item>
+            <item>decorations</item>
+            <item>others</item>
+        </string-array>
+        <color name="white">#ffffff</color>
+        <string name="abc">click here to select the items</string>
+        <string name="ex">OK</string>
+        <string name="xyz">Choose</string>
+        <string name="desc">Ear rings</string>
+        <string name="desc1">bangles</string>
+        <string name="desc2">Necklaces</string>
+        <string name="desc3">wall decors</string>
+        <string name="desc4">home decors</string>
+
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">ONE OF A KIND</string>
+    <string name="backdrop_subtitle">Exhibit your talents...</string>
+</resources>

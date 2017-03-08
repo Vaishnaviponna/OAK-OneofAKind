@@ -1,0 +1,158 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vaishnaviponna.oak_oneofakind.Registration"
+     >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:orientation="vertical"
+        android:background="@drawable/ba1"
+        >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_alignBaseline="@+id/name1"
+            android:layout_alignBottom="@+id/name1"
+            android:layout_marginTop="50dp"
+            android:text="@string/one"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/name1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:hint="@string/hint"
+            android:inputType="textMultiLine"/>
+
+        <TextView
+            android:id="@+id/mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/mail1"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_alignBottom="@+id/mail1"
+            android:text="@string/two"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/mail1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="100dp"
+            android:hint="@string/hint" />
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/pw1"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_alignBottom="@+id/pw1"
+            android:layout_alignLeft="@+id/mail"
+            android:text="@string/three"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/pw1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="150dp"
+            android:hint="@string/hint"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/cp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/cp1"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:layout_alignBottom="@+id/cp1"
+            android:layout_alignLeft="@+id/password"
+            android:text="@string/four"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/cp1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="200dp"
+            android:hint="@string/hint"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/address1"
+            android:layout_alignBottom="@+id/address1"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:text="@string/five"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/address1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="250dp"
+            android:hint="@string/hint"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/what"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/address1"
+            android:layout_marginTop="28dp"
+            android:text="@string/six"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/testbutton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/rounded_edge"
+            android:text="@string/submit" />
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="365dp"
+            android:layout_above="@id/testbutton"
+            android:layout_alignParentTop="true"
+            />
+
+    </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

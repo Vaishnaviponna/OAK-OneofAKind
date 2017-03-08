@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".BlankFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="601dp"
+        android:layout_gravity="left|top"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1200dp"
+            android:id="@+id/front"
+            android:src="@drawable/home"
+            android:layout_marginBottom="63dp"
+            android:layout_alignBottom="@+id/Walk"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Walk"
+            android:text="Walk Through our APP"
+            android:textSize="18dp"
+            android:layout_marginBottom="53dp"
+            android:background="@drawable/rounded_edge"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</FrameLayout>

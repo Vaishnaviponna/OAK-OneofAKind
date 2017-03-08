@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_fragment"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_second_fragment"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="Designer SignIn" />
+        <item
+            android:id="@+id/nav_third_fragment"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Designer Login" />
+        <item android:title="Information">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/plus_one_button"
+                        android:icon="@drawable/ic_info_black_24dp"
+                        android:title="About"
+                        />
+                    <item
+                        android:icon="@drawable/ic_help_black_24dp"
+                        android:title="FAQ"
+                        android:id="@+id/faq"/>
+                    <item
+                        android:icon="@drawable/ic_group_work_black_24dp"
+                        android:title="Developers"
+                        android:id="@+id/developers"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>

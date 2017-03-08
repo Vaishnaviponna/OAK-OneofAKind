@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_designers_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/ba1"
+    tools:context="com.example.vaishnaviponna.oak_oneofakind.Designers_info">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Designer #1"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Designs"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/w1"
+            android:layout_marginTop="70dp"
+
+            />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/b3"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="20dp"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/w9"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:id="@+id/call"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/rounded_edge"
+        android:textSize="20dp"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Message"
+        android:id="@+id/message"
+        android:background="@drawable/rounded_edge"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Mail"
+        android:id="@+id/mail"
+        android:background="@drawable/rounded_edge"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="20dp"/>
+
+
+
+
+</RelativeLayout>

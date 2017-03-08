@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Oak</string>
+
+    <string name="get_answer">Click to get Selected Answer</string>
+    <string name="result_activity">ResultActivity</string>
+    <string name="submit">Submit</string>
+
+    <string-array name="sports_array">
+        <item>ear rings</item>
+        <item>bangles</item>
+        <item>bracelets</item>
+        <item>necklace</item>
+        <item>greeting cards</item>
+        <item>frames</item>
+        <item>wallpapers</item>
+        <item>creative stuff</item>
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="aboutus">ABOUT US \n \n Creating your own things has its charm as it comes straight from the heart. And making a little extra money by marketing and selling them will bring in more happiness to the creators. However, many people don’t have the luxury of purchasing or renting a store to sell these items.\n \n
+
+For small-time artisans, who creates little pieces of magic out of passion, finding a platform to showcase and sell their handmade delights out of paper, thread etc has been a challenge.\n \n
+
+For the people who are interested to buy  the stuff made out of paper, thread like  jwellery, home decorations are finding difficulty to get the designers where they can customize according to their requirements.
+
+Through this app designers can exhibit their work which can increase their marketing. \n \n
+
+The people can have a look at the work of the designers and providing details of the designers can really help people to buy the stuff, customize them.\n \n
+    For more information contact \n email: oakoneofkind@gmail.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

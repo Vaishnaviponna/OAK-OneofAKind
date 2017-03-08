@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "283694174796",
+    "firebase_url": "https://logine-ba180.firebaseio.com",
+    "project_id": "logine-ba180",
+    "storage_bucket": "logine-ba180.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283694174796:android:53e6095a2f422ee5",
+        "android_client_info": {
+          "package_name": "com.example.vaishnaviponna.oak_oneofakind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283694174796-7i5p1ovhofpo1j9qb00p3vleuosdqsju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vaishnaviponna.oak_oneofakind",
+            "certificate_hash": "d9047900d8c2eda3ff2506a60ec25f211e9b60d9"
+          }
+        },
+        {
+          "client_id": "283694174796-hkkiilnpgd5cdb3btdq4hkbqk79bcqmg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBht-Qmc_Na3b-Qf8627MnbJcGqn0zdEic"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283694174796-hkkiilnpgd5cdb3btdq4hkbqk79bcqmg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283694174796:android:80adaab2de4928e7",
+        "android_client_info": {
+          "package_name": "com.oak.vaishnaviponna.oak_oneofakind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283694174796-euhhahae0bflfar5ugbhibm1qussr23q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oak.vaishnaviponna.oak_oneofakind",
+            "certificate_hash": "d9047900d8c2eda3ff2506a60ec25f211e9b60d9"
+          }
+        },
+        {
+          "client_id": "283694174796-hkkiilnpgd5cdb3btdq4hkbqk79bcqmg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBht-Qmc_Na3b-Qf8627MnbJcGqn0zdEic"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283694174796-hkkiilnpgd5cdb3btdq4hkbqk79bcqmg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

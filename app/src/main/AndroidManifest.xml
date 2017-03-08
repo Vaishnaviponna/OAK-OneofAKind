@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vaishnaviponna.oak_oneofakind">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_p1"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Oak"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <uses-permission android:name="android.permission.CALL_PHONE" />
+            <uses-permission android:name="android.permission.SEND_SMS" />
+        </activity>
+        <activity
+            android:name=".ResultActivity"
+            android:label="@string/result_activity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SelectPhoto" />
+        <activity android:name=".Designers_info" />
+        <activity android:name=".Designers_edit" />
+        <activity android:name=".EarringsActivity" />
+        <activity android:name=".Earrings" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".LoginActivity"></activity>
+    </application>
+
+</manifest>
